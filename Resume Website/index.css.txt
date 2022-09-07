@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+@supports (-webkit-text-stroke: 1px black) {
+  main p#Junior {
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: turquoise;
+  }
+  /*Header Styles*/
+  header ul {
+    margin-left: 8px;
+  }
+  header {
+    background-color: #60666e;
+  }
+  body  {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2014/10/04/12/13/milky-way-472971_960_720.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+  }
+  
+   
+/*Div Rules*/
+  div.floatleft {
+    display: block;
+    background-color: #efe5d5;
+    width: 450px;
+    height: 1000px;
+    float: left;
+    padding: 15px 20px 20px 0;
+    margin-left: 17%;
+    margin-right: -17%;
+  }
+  .floatleft {
+    display: block;
+    width: 450px;
+    height: 1000px;
+    float: left;
+    padding: 15px 20px 20px 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+/*Footer rules*/
+footer {
+  display: flex;
+  background: linear-gradient(-90deg, rgba(19, 204, 237, 0.4), rgba(150, 51, 204, 0.4));
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+  
+  footer ul {
+    display: flex;
+    flex: 1;
+  }
+  /*Nav Rules*/
+  nav {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(-90deg, rgba(19, 204, 237, 0.4), rgba(150, 51, 204, 0.4));
+    padding: 27px;
+    align-items: center;
+    line-height: 25px;
+  }
+  }
+  nav li{
+    margin-right: 25px;
+  }
+  li{
+    list-style-type: none;
+  }
+  header ul {
+    
+      margin-left: 8px;
+    display: flex;
+    border-bottom: 0px solid white;
+    transition: border 155ms, padding 155ms;
+  }
+
+  nav li:hover {
+    padding: 10px;
+    border-bottom: 2px solid white;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: turquoise;
+  }
+  /*Img Styles*/
+  img {
+    margin-left: 41px;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px black;
+    -moz-box-shadow: 5px 10px 8px black;
+    -webkit-box-shadow: 5px 10px 8px black;
+    -o-box-shadow: 5px 10px 8px black;
+    width: 100px;
+    height: 100px;
+  }
+  div {
+    background-color: #bbb;
+  }
+  li {
+    margin-left: 15px;
+    line-height: 25px;
+  }
+   
+  /*Hr rules*/
+  h2#skills {
+    margin-top: 139px;
+  }
+  hr#righthr {
+    position: relative;
+    top: 108px;
+    left: -41px;
+  }
+  hr#lefthr {
+    margin-left: 54px;
+  }
+  /*Text Align rules*/
+  #profile {
+    margin-left: 46px;
+  }
+  #education {
+    margin-left: 40px;
+  }
+  #workexperience {
+    margin-left: 39px;
+  }
+  #profileT {
+    margin-left: 62px;
+  }
+  #helenacollegetext {
+    margin-left: 55px;
+  }
+  #helenacollegep {
+    margin-left: 62px;
+  }
+  #knoxflowers {
+    margin-left: 54px;
+  }
+  #knoxflowerslist {
+    margin-left: 55px;
+  }
+  #capitalhigh {
+    margin-left: 56px;
+  }
+  #graduated {
+    margin-left: 62px;
+  }
+  /*Media queries*/
+  @media only screen and (max-width: 938px) {
+    header ul {
+      margin-left: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    #profile {
+      margin-left: 1px;
+    }
+     h2#skills {
+      margin-top: 208px;
+    }
+    p#profileT {
+      margin-left: 0px;
+    }
+    hr#lefthr {
+      margin-left: 1px;
+    }
+    #education {
+      margin-left: 1px;
+    }
+    #capitalhigh {
+      margin-left: -1px;
+    }
+    #graduated {
+      margin-left: -1px;
+    }
+    #helenacollegetext {
+      margin-left: -1px;
+    }
+    div.floatleft {
+      display: block;
+      background-color: #efe5d5;
+      width: 157px;
+      height: 1096px;
+      float: left;
+      padding: 15px 20px 20px 0;
+      margin-left: 8%;
+      margin-right: -9%;
+      margin-bottom: 34px;
+  }
+    p#french {
+      margin-left: -2px;
+    }
+    p#german {
+      margin-left: -2px;
+    }
+    p#english {
+      margin-left: -2px;
+    }
+    p#japanese {
+      margin-left: -1px;
+    }
+    p#bokmal {
+      margin-left: -2px;
+    }
+
+    #helenacollegep {
+      margin-left: 1px;
+    }
+    #workexperience {
+      margin-left: 1px;
+    }
+    #knoxflowers {
+      margin-left: -1px;
+    }
+    #knoxflowerslist {
+      margin-left: 0px;
+    }
+    hr#righthr {
+      position: relative;
+      top: 108px;
+      left: -41px;
+      display: none;
+    }
+  }
+

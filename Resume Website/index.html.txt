@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>My Resume Page</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link href="index.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+    <nav>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="Biography.html">Biography</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+    <div class="floatleft">
+      <h1><img src="https://live.staticflickr.com/4054/35653081635_9ab7c4a401_b.jpg" alt="" class="box-img"> Austin Stewart </h1>
+      <hr id="lefthr"><br>
+      <h2 id="profile"><i class="fas fa-user-tie"></i>Profile </h2>
+      <p id="profileT">College student going for web development interested in getting an internship or potential clients. Detail oriented and very passionate.</p>
+      <br>
+      <h2 id="education"><i class="fas fa-graduation-cap"></i>Education </h2><br>
+      <h4 id="capitalhigh">Captial High School </h4>
+      <p id="graduated">Graduated:2018</p><br>
+      <h4 id="helenacollegetext">Helena College University Of Montana </h4>
+      <p id="helenacollegep"> Currently Attending</p>
+      <br>
+      <h2 id="workexperience"><i class="fas fa-briefcase"></i>Work Experience</h2> <br>
+      <h4 id="knoxflowers">Knox Flowers</h4> <br>
+      <ul id="knoxflowerslist">
+        <li>Helped as a student intern.</li>
+        <li>Made Floral arrangements</li>
+        <li>Helped with other miscellaneous tasks when needed.</li>
+      </ul>
+
+    </div>
+    <div class="floatleft">
+      <hr id="righthr">
+      <h2 id="skills"><i class="fas fa-flask"></i> Skills:</h2><br>
+      <h4>Languages</h4>
+      <p id="english">English &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Native</p>
+      <p id="german">German &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fluent</p>
+      <p id="bokmal">Bokmal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Limited</p>
+      <p id="french">French &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Limited</p>
+      <p id="japanese">Japanese &nbsp;&nbsp;&nbsp;Limited</p><br>
+      <h4>Computer Skills</h4>
+      <p>HTML5, CSS3 & Javascript</p>
+      <p>Microsoft Office</p>
+      <p>Google Docs</p>
+      <p>Microsft Excel</p><br>
+      <h4>Interpersonal Skills</h4>
+      <p>Accuracy<i class="fas fa-bullseye" id="first"></i></p>
+      <p>Analytical skills<i class="fas fa-chart-pie"></i></p>
+      <p>Detail Oriented<i class="fas fa-search"></i></p>
+      <br>
+      <h4><i class="fas fa-heart"></i>Volunteering</h4><br>
+      <p><strong>Youthbuild</strong> 2018</p><br>
+      <h4><i class="fas fa-award">Certifications</i></h4><br>
+      <p>Freecodecamp: Responsive Web Design Certification</p><br>
+      <p>Montana Registered Apprenticeship: Pre-apprenticeship in Carpentry </p><br>
+      <h4><i class="fas fa-globe-americas"></i>Hobbies</h4><br>
+      <p><i class="fas fa-laptop-code"></i>Website development</p><br>
+      <p><i class="fas fa-book-reader"></i>Studying</p><br>
+
+    </div>
+
+  </main>
+  <footer>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#"> Link To My Github</a></li><i class="fab fa-github"></i>
+          <li><a href="https://codepen.io/Razmus">Link To My Codepen</a></li><i class="fab fa-codepen"></i>
+
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>
